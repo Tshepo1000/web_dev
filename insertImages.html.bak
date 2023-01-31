@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>inserting images</title>
+	</head>
+	<body>
+		<img src = "https://thumbs.dreamstime.com/b/dodge-challenger-hemi-muscle-car-geneva-switzerland-march-dodge-challenger-hemi-muscle-car-showcased-th-geneva-104410715.jpg" alt = "Dodge Challenger" width=300px><br>
+		<img src = "https://cdn.carbuzz.com/gallery-images/1600/803000/800/803844.jpg" alt = "Ferrari" width=300px><br>
+		<img src = "https://cdni.autocarindia.com/ExtraImages/20210322062024_2021_ford_equator_front.jpg" alt = "Ford" width=300px height=300px>
+	</body>
+</html>

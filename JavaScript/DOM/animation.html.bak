@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Animation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<style type = "text/css">
+			#container{
+				width: 600px;
+				height: 600px;
+				position: relative;
+				background: yellow;
+			}
+			
+			#animate{
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				background: red;
+			}
+			
+			#image{
+				width: 90px;
+				height: 90px;
+			}
+		</style>
+    </head>
+    <body>
+		<h2>My First JavaScript Animation</h2>
+		
+		<p><button onclick = "myMove()">Click to Move</button></p>
+		
+		<div id = "container">
+			<div id = "animate"><img id = "image" src = "Tshepo T.JPG"></div>
+		</div>
+		
+		<script>
+			function myMove(){
+				let id = null;
+				const elem = document.getElementById("animate");
+				let pos = 0;
+				clearInterval(id);
+				id = setInterval(frame, 5);
+				function frame(){
+					if(pos == 450){
+						clearInterval(id);
+					} else{
+						pos++;
+						elem.style.top = pos + "px";
+						elem.style.left = pos + "px";
+					}
+				}
+			}
+		</script>
+	</body>
+</html>

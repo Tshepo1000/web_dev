@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+			body{
+			background-color:gray;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Dining Room</h1>
+		<p>It's where we have dinner as a family. The dining room has seats that go along with a table.</p>
+	</body>
+</html>

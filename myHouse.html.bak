@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My House</title>
+		<style>
+			.first{
+			float:left;
+			padding:1%;
+			}
+			
+			.second{		
+			padding:1%;
+			}
+			
+			div{
+			width:40%;
+			color:white;
+			}
+			
+			body{
+			background-color:gray;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<h1>My House</h1>
+		<div class = "first">
+			<p>
+				I live in a 10 room house, which has three <a href = "./bedroom.html" target = "_blank">bedrooms</a> and two <a href = "./bathroom.html" target = "_blank">bathrooms</a>, a <a href = "./dining.html" target = "_blank">dining room</a> and a <a href = "./sitting.html" target = "_blank">sitting room</a>. It also has a 
+				separate toilet from the bathroom. It has a double <a href = "./garage" target = "_blank">garage</a> outside, a small <a href = "./garden.html" target = "_blank">garden</a> and
+				it is a paved house. My house is painted in a light gray colour then the window frames,
+				 door frames, and gutters are painted in a dark gray colour.
+			</p>
+		</div>
+		<div class = "second">
+			<p>
+				Our yard is low walled, and the wall is also light gray painted. It also has a steel 
+				gate that is black and gold. Outside of our a gate is a small garden which consists of
+				grass and some flowers.
+			</p>
+		</div>
+	</body>
+</html>

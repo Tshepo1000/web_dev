@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Week One Mini Project</title>
+		<body>
+			<form method=post action="location and file name">
+				<h1>HTML form</h1>
+				<p>First name: <input type=text name="Name" size=30></p>
+				<p>Last name: <input type=text name="Name" size=30></p>
+				</p>E-mail: <input type=text name=Name size=30></p>
+				<input type=radio name=gender value="Gender">Male<br>
+				<input type=radio name=gender value="Gender">Female<br>
+				<input type=submit name="submit" value="Submit">
+				<input type=reset name="clear" value="Reset">
+			</form>
+		</body>
+	</head>
+</html>

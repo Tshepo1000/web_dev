@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Inner HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+       
+	   <h1 id="demo">Changing HTML Content</h1>
+	   <p id="p1">Hello World</p>
+        <script>
+			document.getElementById("p1").innerHTML = "New text!";      
+	   </script>
+	   
+	   <h2 id="id01">Old Heading</h2>
+	   <script>
+			const x = document.getElementById("id01");
+			x.innerHTML = "New Heading";
+	   </script>
+	   <h1>Changing the value of an attribute</h1>
+	   <img id="myImage" src="https://toppng.com/public/uploads/preview/light-bulb-on-off-png-11553940319kdxsp3rf0i.png">
+	   
+	   <script>
+			document.getElementById("myImage").src = "https://toppng.com/public/uploads/preview/light-bulb-on-off-png-11553940208oq66nq8jew.png";
+	   </script>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+			body{
+			background-color:gray;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>The Garden</h1>
+		<p>Our garden has grass and a few flowers. I usually visit our garden just to get some fresh air.</p>
+		<br>
+		<img src = "Types-of-Home-Gardens.jpg">
+	</body>
+</html>

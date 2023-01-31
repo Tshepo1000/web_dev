@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+			body{
+			background-color:gray;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Sitting Room</h1>
+		<p>It has sofas, a TV, built in TV stand and a table. We usually sit in the sitting if we are watching TV. We usually watch sports, movies and news in the siiting room.</p>
+		<br>
+		<img src = "c4a99447825beff43cc9c2f48d2cbdf0.jpg">
+	</body>
+</html>

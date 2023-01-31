@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>making forms</title>
+	</head>
+	<body>
+		<form method=post action="location and file name">
+			First Name <input type=text name="name" size=30>
+				<br>
+			Last Name <input type=text name="name" size=30>
+				<br>
+			Email Address <input type=text name="name" size=30>
+				<br>
+			Physical Address <textarea name=message rows=5 cols=50></textarea>
+				<br>
+			Password <input type=password name="name" size=30>
+				<br>
+			<input type=submit value="Submit" name="submit">
+			<input type=reset value="Clear" name="clear">
+		</form>
+	</body>
+</html>

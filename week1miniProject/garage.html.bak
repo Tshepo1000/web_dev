@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+			body{
+			background-color:gray;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Garage</h1>
+		<p>A double garage, where my parents park their cars, and it also has built in cupboards where we store things we rarely use such as tools.</p>
+		<br>
+		<img src = "Pent-Mansard-double3.jpg">
+	</body>
+</html>

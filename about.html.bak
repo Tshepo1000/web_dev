@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About Us</title>
+		<style type = "text/css">
+			p{color:green;
+			text-align:center;}
+			h1, h2{color:blue;
+			text-align:center;}
+		</style>
+	</head>
+	<body>
+		<a href="./index.html">Home</a>
+		<a href="./contact.html" target = "_blank">Contact</a><br>
+	
+		<h1>About Us</h1>
+		<h2>Who we are</h2>
+		<br>
+		
+		<p>Power Learn Project is an impact organization whose goal is to drive<br>
+		transformative change for youth in Africa by powering them with<br>
+		relevant technology capacity through provision of quality and<br>
+		decentralized tech training.</p>
+		
+		<img src="land.320886a17f4416600cde.jpg" alt="PLP" width=800px>
+	</body>
+</html>

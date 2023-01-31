@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>EventListeners</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+	<body>
+	
+		<h2>JavaScript addEventListener()</h2>
+
+		<p>This example uses the addEventListener() method to attach a click event to a button.</p>
+		
+		<button id = "myBtn">Show Date</button>
+		
+		<p id = "demo"></p>
+		
+		<script>
+			document.getElementById("myBtn").addEventListener("click", displayDate);
+			
+			function displayDate(){
+				document.getElementById("demo").innerHTML = Date();
+			}
+		</script>
+		
+		<br>
+		<p>This example uses the addEventListener() method to attach a click event to a button.</p>
+		
+		<button id = "mybtn">Try it</button>
+		
+		<script>
+		
+			document.getElementById("mybtn").addEventListener("click", greetings);
+			document.getElementById("mybtn").addEventListener("click", myFunction);
+		
+			function greetings(){
+				alert("Hello Tshepo.");
+			}
+			
+			function myFunction(){
+				alert("Goodbye Tshepo.");
+			}
+		
+		</script>
+		
+		<br>
+		
+		<p>This example uses the addEventListener() method on the window object.</p>
+
+		<p>Try resizing this browser window to trigger the "resize" event handler.</p>
+		
+		<p id="demo"></p>
+
+		<script>
+			window.addEventListener("resize", function(){
+			document.getElementById("demo").innerHTML = Math.random();
+			});
+		</script>
+		
+		
+	</body>
+	
+</html>

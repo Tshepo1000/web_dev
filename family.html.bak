@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Family</title>
+		<style>
+			h1, h2, h3, h4, h5, h6{
+			color: blue;
+			padding:2%;
+			}
+			
+			.fam{
+			float: left;
+			padding:2%;
+			width:50%;
+			}
+			
+			body{background-color: gray;}
+		</style>
+	</head>
+	<body>
+		<div class = "fam">
+			<h1>Family is everything.</h1>
+		
+			<p>I live in a joint family. There are a total of seven members in my family including my mother, father, sister, brother and nephew. 
+			Both my parents are retired. My brother and sister are working and my nephew is in pre school.
+
+			All members of my family love and respect each other. We all like spending time with each other. 
+			Every night after having dinner we sit together for a while to spend quality time and during this time period we talk and watch television simultaneously. 
+			On the weekends we plan outings as well.</p>
+			
+			<h2>My Father</h2>
+			<p>My father is 60 years old. He worked for almost 39 years as an engineer at a company
+				named Unilever until he retired. He spends most of his days enjoying his retirement by
+				watching sports on TV especially soccer, he's a big Arsenal fan and I'm a Chelsea fan
+				so we always argue about soccer. He also likes reading books and novels.</p>
+			<h3>My Mother</h3>
+			<p>My mother retired due to illness. She also worked as a receptionist for almost 20 years until
+				doctors advised her to retire. My mother likes cooking and she is a great cook,
+				her food are always delicious.</p>
+			<h4>My Sister</h4>
+			<p>My sister is 30 years old and she is a twin sister to my brother. She's currently
+				working and studying part time. </p>
+			<h5>My Brother</h5>
+			<p>My Brother is also 30 years old and she is a twin brother to my sister. He is a welder
+				and a boilermaker. My brother runs his own business with his three associates and they
+				design and make gates, buglers and they also fix roofs and ceilings.</p>
+			<h6>My Nephew</h6>
+			<p>My nephew is 6 years old and he is still in pre school. He is the first born son of my sister.
+				Always laughing and smiling, my nephew is a happy person and that happiness comes with
+				naughtyness. My nephew is very naughty.</p>
+		</div>
+	</body>
+</html>

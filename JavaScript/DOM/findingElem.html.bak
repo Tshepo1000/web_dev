@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Finding HTML Elements</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Finding DOM html elements by Id</h2> 
+        <p id="intro">Finding HTML Elements by Id</p>
+        <p>This example demonstrates the <b>getElementsById</b> method.</p>
+        
+        <p id="demo"></p>
+
+       <script>
+			const element = document.getElementById("intro");
+			document.getElementById("demo").innerHTML = "This is how you find elements by ID: " + element.innerHTML;
+	   </script>
+
+        <h2>Finding DOM html elements by Tag Name</h2> 
+		<p>Finding HTML Elements by Tag Name.</p>
+		<p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+		
+		<p id ="demoo"></p>
+		
+		<script>
+			const element = document.getElementsByTagName("p");
+			document.getElementById("demoo").innerHTML = "The text in first paragraph (index 0) is: " + element[0].innerHTML;
+		</script>
+		
+		<div id="main">
+			<p>Finding HTML Elements by Tag Name</p>
+			<p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+		</div>
+
+		<p id="demo"></p>
+
+		<script>
+			const x = document.getElementById("main");
+			const y = x.getElementsByTagName("p");
+
+			document.getElementById("demo").innerHTML = 
+			'The first paragraph (index 0) inside "main" is: ' + y[0].innerHTML;
+
+		</script>
+
+    </body>
+</html>

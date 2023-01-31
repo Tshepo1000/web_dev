@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DOM Events</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body onload = "checkCookies()">
+	
+		<h2>JavaScript HTML Events</h2>
+	
+		<p id = "demo"></p>
+	
+		<script>
+			function checkCookies(){
+				var text = "";
+				if(navigator.cookieEnabled == true){
+					text = "Cookies are enabled.";
+				} else{
+					text = "Cookies are not enabled.";
+				}
+				
+				document.getElementById("demo").innerHTML = text;
+			}
+		</script>
+		
+		<h2>JavaScript HTML Events, onchange function</h2>
+		
+		Enter your name: <input type = "text" size = 30 id = "fname" onchange = "upperCase()">
+		
+		<script>
+			function upperCase(){
+				const x = document.getElementById("fname");
+				x.value = x.value.toUpperCase();
+			}
+		</script>
+		
+		<h2>Onmousedown, Onmouseup and Onclick</h2>
+		
+		<div onmousedown = "modown(this)" onmouseup = "moup(this)" style = "background-color:#D94A38;width:90px;height:20px;padding:40px; cursor: pointer;">Click me</div>
+		
+		<script>
+			function modown(x){
+				x.style.backgroundColor = "#1ec5e5";
+				x.innerHTML = "Release Me";
+			}
+			
+			function moup(x){
+				x.style.backgroundColor="#D94A38";
+				x.innerHTML="Thank You";
+			}
+		</script>
+		
+		<p><button type = "button" id = "btn" onmousedown = "mdown()" onmouseup = "mup()">Switch</button></p>
+		<p><img src = "light-bulb-on-off-png-11553940208oq66nq8jew.png" id = "myImage" style = "width: 200px; height: 150px";></p>
+		
+		<script>
+			function mdown(){
+				document.getElementById("myImage").src = "light-bulb-on-off-png-11553940319kdxsp3rf0i.png";
+			}
+			
+			function mup(){
+				document.getElementById("myImage").src = "light-bulb-on-off-png-11553940208oq66nq8jew.png";
+			}
+		</script>
+	</body>
+</html>

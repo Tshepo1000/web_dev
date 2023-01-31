@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Us</title>
+		<style type = "text/css">
+			p{color:green;}
+			h1, h2, h3, h4, h5{color:blue;}
+			
+			.home{
+				float:left;
+				}
+				
+				.about{
+				float:left;
+				}
+				
+				div{
+				padding:1%;
+				width:5%;
+				}
+		</style>
+	</head>
+	<body>
+		<div class = "home">
+			<a href="./home.html" target = "_blank">Home</a>
+		</div>
+		<div class = "about">
+			<a href="./about.html" target="_blank">About</a>
+		</div><br>
+		<br>
+		<br>
+		<form method=post action="location and file name">
+			<label>First Name</label><br>
+			<input type="text" name="name" size=30 placeholder="Name"><br>
+				<br>
+			<label>Last Name</label><br>
+			<input type="text" name="name" size=30 placeholder="Surname"><br>
+				<br>
+			<label>Email</label><br>
+			<input type="email" name="name" size=30 placeholder="Email Address"><br>
+				<br>
+			<label>Phone Number</label><br>
+			<input type="number" style="width:240px" placeholder="Contact"><br>
+				<br>
+			<label>Message</label><br>
+			<textarea name="message" rows=5 cols=30></textarea><br>
+				<br>
+			<input type="date" style="width:240px"><br>
+				<br>
+			<input type="submit" value="Submit" name="submit">
+			<input type="reset" value="Clear" name="clear">
+		</form>
+		<h3>Location</h3>
+		<p>Power Learn Project</p>
+		<p>4th Floor, The Pavillion</p>
+		<p>Lower Kabete road</p>
+		<p>Nairobi, Kenya</p>
+		
+		<h4>Email</h4>
+		<p>info@powerlearnproject.org</p>
+		<h5>Phone</h5>
+		<p>+254 700 611 875</p>
+	</body>
+</html>
