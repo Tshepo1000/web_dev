@@ -1,0 +1,23 @@
+#navLinks{
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    padding-top: 10px;
+    display: flex;
+}
+
+#head{
+    background-color: cadetblue;
+}
+
+#divLinks a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+#divLinks{
+    gap: 6rem;
+    display: flex;
+}
